@@ -9,6 +9,34 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: 'Adigiana Toybox';
+  src: url(../Adigiana-Toybox-Regular/AdigianaUi.ttf);
+}
+@font-face {
+  font-family: 'Blogger';
+  src: url(../Blogger/Blogger_Sans.otf);
+}
+
+#box{
+  background-color: white;
+  border-radius: 50px;
+}
+
+#calendario{
+padding-left: 20px;
+padding-right: 20px;
+}
+
+#calendario input{
+  width: 100%;
+}
+
+#cadastrar{
+
+}
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -362,24 +390,17 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
-  width: 100%;
-  height: 60vh;
-  background: url("../img/hero-bg.jpg") center center;
-  background-size: cover;
-  position: relative;
-  margin-top: 70px;
-  padding: 0;
+#home_cuide{
+  font-family: Adigiana Toybox;
 }
 
-#hero:before {
-  content: "";
-  background: rgba(56, 64, 70, 0.7);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
+#hero {
+  width: 100%;
+  height: 100%;
+  background: url("../img/Tela Home.png") center center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
 }
 
 #hero .container {
