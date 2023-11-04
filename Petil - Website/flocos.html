@@ -42,7 +42,7 @@
   <div class="container d-flex align-items-center">
 
       <div class="logo me-auto">
-          <h1><img src="assets/img/Petil Logo.png" alt=""></h1>
+        <a href="index.html"><h1><img src="assets/img/Petil Logo.png" alt=""></h1></a>
           <!-- Uncomment below if you prefer to use an image logo -->
           <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -69,40 +69,70 @@
 <!-- End Header -->
 
 <main id="main" style="padding-top: 70px; padding-bottom:70px;">
-    <div class="container" style="width: auto; height:auto; margin: 0 35% 0 35%" id="box">
-      <div class="row">
+    <div class="container" style="width: 70%; height:auto;" id="box">
+      <div class="row" style="padding-top: 2%;">
           <div class="col">
               <img class="img-fluid" src="assets/img/3.png" alt="" >
           </div>
           <div class="col">
-            <h1 style="color: grey;">Flocos</p>
-            <h4 style="color: grey;">2 anos</p>
-            <h4 style="color: grey;">castrado</p>
-            <h4 style="color: grey;">vira-lata</p>
+            <ul class="list-group list-group-flush" style="padding-right: 20%;">
+                <li class="list-group-item dados" style="font-weight: 1000; font-size: 40px;">FLOCOS</li>
+                <li class="list-group-item dados">2 Anos</li>
+                <li class="list-group-item dados">Castrado</li>
+                <li class="list-group-item dados">Siamês</li>
+              </ul>
         </div>
-        <div class="row">
+        <div class="row" style="padding-bottom: 5%; padding-top: 5%;">
             <div class="col">
                 <ul class="list-group">
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Morbi leo risus</li>
-                    <li class="list-group-item">Porta ac consectetur ac</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-              </ul>
-            <div>
+                    <li class="list-group-item" style="background-color: #D66483; color: #fff;">Histórico</li>
+                    <li class="list-group-item">Tosa - 01/11/2023</li>
+                    <li class="list-group-item">Atendimento clínico - 24/10/2023</li>
+                    <li class="list-group-item">Exame laboratorial - 15/09/2023</li>
+                    <li class="list-group-item">Tosa - 28/07/2023</li>
+                </ul>
+            </div>
+                    
             <div class="col">
                 <ul class="list-group">
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Morbi leo risus</li>
-                    <li class="list-group-item">Porta ac consectetur ac</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-              </ul>
-            <div>
+                    <li class="list-group-item" style="background-color: #D66483; color: #fff;">Vacinas</li>
+                    <li class="list-group-item">Antirrábica - 2023</li>
+                    <li class="list-group-item">V3 - 2022</li>
+                    <li class="list-group-item">Gripe felina - 2022</li>
+                    <li class="list-group-item">V4 - 2022</li>
+                </ul>
+            </div>
         </div>
+        
   </div>
   
   </main>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content" style="border-radius: 50px;">
+        <div class="modal-body">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 style="font-family: Blogger; color: #D66483;">Login</h1>
+                    <input class="custom-input" type="text" placeholder="E-mail:">
+                    <input class="custom-input" type="password" placeholder="Senha:">
+                    <button class="custom-button" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Login</button>
+                </div>
+                <div class="col text-center">
+                    <h1 style="font-family: Blogger; color: #D66483;">Cadastro</h1>
+                    <input class="custom-input" type="text" placeholder="E-mail:">
+                    <input class="custom-input" type="text" placeholder="Confirme seu e-mail:">
+                    <input class="custom-input" type="password" placeholder="Senha:">
+                    <input class="custom-input" type="password" placeholder="Confirme sua senha:">
+                    <button class="custom-button" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cadastrar</button>
+                </div>
+            </div>
+        
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!-- ======= Footer ======= -->
     <footer id="footer">

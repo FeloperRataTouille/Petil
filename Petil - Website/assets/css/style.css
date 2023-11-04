@@ -17,9 +17,30 @@
   font-family: 'Blogger';
   src: url(../Blogger/Blogger_Sans.otf);
 }
+#iniciar{
+  width: 80%;
+  text-align: center;
+  background-color: #fff;
+  color: #A34C63;
+  height: 40px;
+  border: 3px solid #A34C63;
+  border-radius: 50px;
+  font-weight: bolder;
+}
+
 #blocos{
   border-radius: 50px;
   background-color: #EF9CA4;
+}
+
+.dados{
+  font-family: "Blogger";
+  font-size: 20px;
+  color: gray;
+}
+
+.cafe{
+  margin: 0 25px 0 25px;
 }
 
 #blocos a img{
@@ -79,8 +100,8 @@ padding-right: 20px;
   width: 100%;
 }
 
-#cadastrar{
-
+.bola{
+  width: 45%;
 }
 
 
@@ -172,6 +193,7 @@ h6 {
   max-height: 80px;
 }
 
+
 /*--------------------------------------------------------------
 # Header Social Links
 --------------------------------------------------------------*/
@@ -198,6 +220,15 @@ h6 {
 @media (max-width: 768px) {
   .header-social-links {
     margin: 0 15px 0 0;
+  }
+  #cuides{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 644px){
+  .cafe{
+    margin: 0;
   }
 }
 
@@ -493,12 +524,14 @@ h6 {
 }
 
 @media (max-width: 992px) {
+  .bola{
+    width: 90vw;
+  }
 }
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 5px;
   }
 
   #hero h2 {
@@ -1312,6 +1345,9 @@ h6 {
 
   .breadcrumbs ol li {
     display: inline-block;
+  }
+  #cuides{
+    font-size: 20px;
   }
 }
 
