@@ -117,6 +117,43 @@
     </div>
   </div>
     
+  <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="formModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="formModalLabel">Avaliações</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="container">
+                <form id="ratingForm">
+                    <div class="rating">
+                        <input type="radio" id="star5" name="rating" value="5">
+                        <label for="star5" title="Excelente"></label>
+                        <input type="radio" id="star4" name="rating" value="4">
+                        <label for="star4" title="Muito bom"></label>
+                        <input type="radio" id="star3" name="rating" value="3">
+                        <label for="star3" title="Bom"></label>
+                        <input type="radio" id="star2" name="rating" value="2">
+                        <label for="star2" title="Regular"></label>
+                        <input type="radio" id="star1" name="rating" value="1">
+                        <label for="star1" title="Ruim"></label>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
     
     
     <!-- End Hero -->
@@ -184,9 +221,19 @@
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
-        <div class="container d-md-flex py-4">
+        <div class="container py-4">
 
-            <div class="me-md-auto text-center text-md-start">
+            <div class="me-md-auto text-center">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#formModal" style="background-color: white;   width: 30%;
+                text-align: center;
+                background-color: #fff;
+                color: #A34C63;
+                height: 40px;
+                border: 3px solid #A34C63;
+                border-radius: 50px;
+                font-weight: bolder;">
+                    Avalie-nos
+                  </button>
                 <p><i class="bi bi-geo-alt"></i>     Av. Dr. Carlindo de S Dantas, 101, Caicó - RN, 59300-000</p>
                 <p><a href="https://www.instagram.com/"><i class="bbi bi-instagram" style="color: #fff;"></a></i>     petil.care@hotmail.com</p>
                 <p><i class="bi bi-envelope"></i>     @petil</p>
